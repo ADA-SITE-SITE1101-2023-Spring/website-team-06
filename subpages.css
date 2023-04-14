@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://cdn.wallpapersafari.com/32/67/uNnmEU.jpg);
+    background-size: cover;
+}
+
+h1 {
+  text-align: left;
+  color: #f4f4f4;
+  margin-top: 50px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  max-width: 300px;
+  height: auto;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #f6f6f6;
+  margin-top: 30px;
+}
+
+p {
+  color: #fefefe;
+  line-height: 1.5;
+  margin-top: 25px;
+}

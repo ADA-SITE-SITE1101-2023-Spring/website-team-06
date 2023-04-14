@@ -1,0 +1,131 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://cdn.wallpapersafari.com/32/67/uNnmEU.jpg);
+
+    }
+header {
+    background-color: #c55800;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    margin: 0;
+    color:#fff;
+  }
+  
+  header h2 {
+    font-size: 24px;
+    margin-top: 5px;
+    color:#fff
+  }
+  
+  nav {
+    background-color: rgba(170, 169, 169, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav li a {
+    color: #c55800;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(170, 169, 169, 0.1);
+    border-radius: 40px;
+  }
+  
+  section h2 {
+    font-size: 32px;
+    margin-top: 0;
+    color:#fff;
+  }
+  
+  section p {
+    font-size: 18px;
+    line-height: 1.5;
+    color:#fff
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #c55800;
+    color: #fff;
+  }
+  
+  footer {
+    background-color: #c55800;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+  
+  #hourofcode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+ 
+  #hourofcode img {
+    max-width: 100%;
+    margin: 10px;
+  }
+  
+  #hourofcode video {
+    max-width: 100%;
+    margin: 10px;
+  }
+  
+  #hourofcode p {
+    text-align: center;
+    margin: 20px;
+  }
+  #members a{
+    color:black;
+  }
+  #hourofcode a{
+    color:#fff;
+  }
+  #website a{
+    color:black;
+  }
