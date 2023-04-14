@@ -27,14 +27,17 @@ table {
     background-color: #e74900d6;
     color:#fcfcfc
   }
+  
   thead {
     font-weight: bold;
     color:#fcfcfc
   }
+  
   table {
     background-color: #ffffffc6;
     margin: 0 auto;
   }
+  
   h1{
     color:#fcfcfc
   }
