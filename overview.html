@@ -5,6 +5,8 @@
 	<link rel="stylesheet" href="designforoverview.css">
 </head>
 <body>
+	<div id="rightbar"></div>
+	<div id="lenght"></div>
 	<header>
 		<h1>Vanguards</h1>
         <h2>Information</h2>
@@ -54,15 +56,15 @@
 			<img src="https://scontent.fgyd4-2.fna.fbcdn.net/v/t39.30808-6/330212405_230912002627781_798502882895120869_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=0kJmtKXBkrgAX8Jwlkf&_nc_ht=scontent.fgyd4-2.fna&oh=00_AfCfPHUUbqf_G0hu4mqpJ9A4kd6Z8ff-qXY9w02IpV9eLA&oe=643D6A41"/>
 			<img src="https://scontent.fgyd4-2.fna.fbcdn.net/v/t39.30808-6/334453736_215412317650293_7557323260039602952_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=nEBnU0YvhscAX8xTMFP&_nc_ht=scontent.fgyd4-2.fna&oh=00_AfAqzODk_FRW4YvgwHkZHmBb6aSFENZypHuKZOWajyD1sQ&oe=643CEC39"/>
 			<img src="https://scontent.fgyd4-2.fna.fbcdn.net/v/t39.30808-6/329776855_2008435852820679_2419342072307370147_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=nhuEEbcmDH4AX8phxda&_nc_ht=scontent.fgyd4-2.fna&oh=00_AfC_dm3yYkUrq83b3U-TjsT2IkLLOIW7Cv5b2Zp-0AWc3g&oe=643D7B08"/>
-			<video src="media/330363301_902875080913692_2273091664329904874_n (1).mp4" controls>Video not supported</video>
+			<video src="330363301_902875080913692_2273091664329904874_n (1).mp4" controls>Video not supported</video>
 		</section>
 		</div>
 
 		<section id="website">
 			<h2>Website Project</h2>
 			<p>After finishing with the learning part of our homework, which included courses in HTML, CSS, and JavaScript on the codacademy.com site we pursued the creation of our team site. 
-				The structure of the site was given by our instructors, which details should be included as general information about our team. The backbone was presented by Babek, our team leader, who accurately wrote the HTML code for the structuring. The context, which will be displayed on our site, was written by Tamella. Description of the process and general information and background of our team. The general information about each member including the photos was located in the hyperlink that is located on the home page of our site. The process of homework two, which was about the "Hour of code", is displayed on the home page of the site. The report on our progress with homework 2, presents the main context of our idea, including the experience that we gained by concluding it. Additionally, photos and videos that were taken, were included on our page. Design that was added by using CSS, created a user-friendly interface that allows opening various hyperlinks to the desired information. 
-				To conclude, this experience helped us to understand the structure of the site as well as the importance of the design that helps attract the user and increases the quality of interaction.</p>
+				The backbone was presented by Babek, our team leader, who accurately wrote the HTML code for the structuring. The context, which will be displayed on our site, was written by Tamella. Description of the process and general information and background of our team and the general information about each member including the photos was located in the hyperlink that is located on the home page of our site. The process of homework two, which was about the "Hour of code", is displayed on the home page of the site. The report on our progress with Homework 2, presents the main context of our idea, including the experience that we gained by concluding it. Additionally, photos and videos that were taken, were included on our page. Design that was added by using CSS, created a user-friendly interface that allows opening various hyperlinks to the desired information. Moreover, some animations were written by Javascript.
+					To conclude, this experience helped us to understand the structure of the site as well as the importance of the design that helps attract the user and increases the quality of interaction.</p>
 				<table>
 					<tr>
 						<th>Name and Surname</th>
@@ -76,8 +78,8 @@
 					</tr>
 					<tr>
 						<td>Tamella Orujaliyeva</td>
-						<td></td>
-						<td><a href="" target="_blank">Click here</a></td>
+						<td>Completed: HTML, CSS, JS</td>
+						<td><a href="https://www.codecademy.com/profiles/tamellaOrucaliyeva6294274378" target="_blank">Click here</a></td>
 					</tr>
 					<tr>
 						<td>Artem Abbasov</td>
@@ -85,8 +87,15 @@
 						<td><a href="" target="_blank">Click here</a></td>
 					</tr>
 				</table>
-		</section>
 	</main>
-	
+</section>
+<script type="text/JavaScript">
+	let progress= document.getElementById('rightbar');
+	let totalHeight= document.body.scrollHeight-window.innerHeight;
+	window.onscroll=function(){
+		let rightbarHeight= (window.pageYOffset/totalHeight)*100;
+		rightbar.style.height=rightbarHeight+"%";
+	}
+</script>
 	<footer>
 		<p>&copy; 2023 Team 6.
